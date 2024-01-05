@@ -38,9 +38,11 @@ Please note if you want to just run the data analysis workflow and skip the need
 
 **You can in fact start running the code from notebook 4 to 6 to start the data analysis using unsupervised methods, and fine-tuning BERT using the labelled dataset from BERT, using the train, validation and test sets in the `combined_data_output` folder**
 
+**Please note that notebook 5 and 6 requires a GPU to train the models in sufficient time. In particular I ran the training code on [Google Colab](https://colab.google/), please follow the instructions in notebook 5 and 6 in order to replicate the workflow on Google Colab.
+
 #### Running everything from the Data Labelling Workflow
 
-To start the data pipeline, please first take download the complete free financial news data from the news aggregator Webz.io [data description](https://staging.webz.io/free-datasets/financial-news-articles/), [data link](https://staging.webz.io/free-datasets-thank-you/?Required_Dataset=financial-news-articles). Please click on the data link to download zip file of news. Here there will be 3 folders containing news for each  month between July and October 2015. Unzip the all such that you have jsons of news article for each folder (3 folders in total). Copy these folders into the `news_data_all` folder.
+To start the data pipeline, please first take download the complete free financial news data from the news aggregator Webz.io [data description](https://staging.webz.io/free-datasets/financial-news-articles/), [data link](https://staging.webz.io/free-datasets-thank-you/?Required_Dataset=financial-news-articles). Please click on the data link to download zip file of news. Here there will be 4 folders containing news for each  month between July and October 2015. Unzip the all such that you have jsons of news article for each folder (4 folders in total). Copy these folders into the `news_data_all` folder.
 
 You will also need the openAI API key. Setup your own OpenAI API key using the [OpenAI API documentation](https://platform.openai.com/docs/overview) using your own OpenAI account and top up your API account with Credit appropriately. You will need to spend roughly $22 to label the unlabelled data.
 
