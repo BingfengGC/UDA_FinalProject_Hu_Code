@@ -23,3 +23,5 @@ pip install -r requirements.txt
 Write steps in the read me for all the data review
 
 Getting results, and labelling, and getting the final data for analysis in the final dataset folder.
+
+Describe the folder structure for the data pipeline
