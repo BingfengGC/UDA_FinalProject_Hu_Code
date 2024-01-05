@@ -38,7 +38,7 @@ Please note if you want to just run the data analysis workflow and skip the need
 
 **You can in fact start running the code from notebook 4 to 6 to start the data analysis using unsupervised methods, and fine-tuning BERT using the labelled dataset from BERT, using the train, validation and test sets in the `combined_data_output` folder**
 
-**Please note that notebook 5 and 6 requires a GPU to train the models in sufficient time. In particular I ran the training code on [Google Colab](https://colab.google/), please follow the instructions in notebook 5 and 6 in order to replicate the workflow on Google Colab.
+**Please note that notebook 5 and 6 requires a GPU to train the models in sufficient time. In particular I ran the training code on [Google Colab](https://colab.google/), please follow the instructions in notebook 5 and 6 in order to replicate the workflow on Google Colab.**
 
 #### Running everything from the Data Labelling Workflow
 
