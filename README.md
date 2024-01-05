@@ -14,6 +14,8 @@ Please run the code by installing the requirements by running
 pip install -r requirements.txt
 ```
 
+I am using Python 3.9.
+
 ## Project structure
 
 This repo contains 6 notebooks that you can run the replicate the full data pipeline process, with two parts as seen below. If you want to replicate the complete workflow, you need run all 6 notebooks in order from 1 to 6.
